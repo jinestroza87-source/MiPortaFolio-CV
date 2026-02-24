@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jose Inestroza | Senior Developer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    color:#f1f5f9;
+}
+
+.container{
+    max-width:1100px;
+    margin:50px auto;
+    background:#111827;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 40px rgba(0,0,0,0.6);
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.sidebar{
+    background:#0f172a;
+    width:35%;
+    padding:40px;
+    text-align:center;
+}
+
+.sidebar img{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #38bdf8;
+    margin-bottom:20px;
+}
+
+.sidebar h2{
+    margin-bottom:10px;
+}
+
+.contact p{
+    font-size:14px;
+    margin:8px 0;
+    color:#cbd5e1;
+}
+
+.skills span{
+    display:inline-block;
+    background:#38bdf8;
+    color:#0f172a;
+    padding:6px 12px;
+    margin:5px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.main{
+    width:65%;
+    padding:50px;
+}
+
+.main h1{
+    font-size:28px;
+    margin-bottom:10px;
+    color:#38bdf8;
+}
+
+.section{
+    margin-top:30px;
+}
+
+.section h3{
+    margin-bottom:10px;
+    border-bottom:2px solid #38bdf8;
+    padding-bottom:5px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .container{
+        flex-direction:column;
+    }
+    .sidebar, .main{
+        width:100%;
+    }
+}
+.btn-titulo{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background:#38bdf8;
+    color:#0f172a;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn-titulo:hover{
+    background:#0ea5e9;
+    transform:translateY(-3px);
+}
+
+.social-link{
+    color:#38bdf8;
+    text-decoration:none;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+.social-link:hover{
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+        <img src="img/perfil.jpeg" alt="Foto de Perfil">
+
+        <h2>Jose Inestroza</h2>
+        <p>Senior Web Developer & Data Analyst</p>
+
+        <div class="contact">
+            <p>📍 Honduras</p>
+            <p>📧 jinestroza87@gmail.com</p>
+            <p>📱 +504 9867-8229</p>
+            <p>
+🌐 
+<a href="https://github.com/jinestroza87-source" target="_blank" style="color:#38bdf8; text-decoration:none;">
+github.com/jinestroza87-source
+</a>
+</p>
+
+<p>
+    💼 
+    <a href="https://www.linkedin.com/in/jose-alfonzo-inestroza-rodriguez" target="_blank" class="social-link">
+        LinkedIn
+    </a>
+</p>
+        </div>
+
+        <div class="section">
+            <h3>Habilidades</h3>
+            <div class="skills">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+                <span>Power BI</span>
+                <span>SQL Server</span>
+                <span>APIs REST</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Python</span>
+                <span>HTML/CSS</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>Perfil Profesional</h1>
+        <p>
+        Desarrollador web y analista de datos con enfoque estratégico,
+        especializado en integración de pasarelas de pago, desarrollo de sistemas
+        con PHP y MySQL, y creación de dashboards avanzados en Power BI.
+        Experiencia en automatización de procesos y soluciones orientadas a resultados.
+        </p>
+
+        <div class="section">
+            <h3>Experiencia Profesional</h3>
+            <ul>
+                <li>Desarrollo de eCommerce con integración PixelPay.</li>
+                <li>Implementación de dashboards dinámicos con segmentación avanzada.</li>
+                <li>Optimización de bases de datos y consultas SQL.</li>
+                <li>Automatización con Power Automate.</li>
+            </ul>
+        </div>
+
+  <div class="section">
+    <h3>Educación</h3>
+
+    <p>Licenciatura en Matemáticas con Orientación en Estadística</p>
+    
+    <a href="img/TITULOUNAH.pdf" target="_blank" class="btn-titulo">
+        📄 Ver Título Universitario
+    </a>
+
+    <p style="margin-top:20px;">
+    Máster en Dirección Estratégica en Ingeniería de Software
+    </p>
+</div>
+
+        <div class="section">
+            <h3>Proyectos Destacados</h3>
+            <ul>
+                <li>Sistema de tienda online con carrito y pasarela de pago.</li>
+                <li>Exportación automatizada de datos filtrados en Power BI.</li>
+                <li>Portafolio web responsivo profesional.</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
